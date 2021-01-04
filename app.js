@@ -20,5 +20,8 @@ function addTask(e) {
     alert('Add a Task');
   }
 
+  // Create li elements
+  const li = document.createElement('li');
+
   e.preventDefault();
 }
