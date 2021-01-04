@@ -19,3 +19,6 @@ function addTask(e) {
   if(taskInput.value === '') {
     alert('Add a Task');
   }
+
+  e.preventDefault();
+}
